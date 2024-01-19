@@ -1,0 +1,32 @@
+all the dependenices are in python3.0
+
+
+from __future__ import division, print_function, unicode_literals    #All Libraries
+import numpy as np
+import matplotlib.pyplot as plt
+from torchvision import transforms, datasets, models
+import torch
+from torch import optim, cuda
+from torch.utils.data import DataLoader, sampler
+import torch.nn as nn
+from torch.autograd import Variable
+from torchsummary import summary
+import os
+import pandas as pd
+import scipy 
+from timeit import default_timer as timer
+from torch.optim import lr_scheduler
+%matplotlib inline
+plt.ion()
+import xml.etree.ElementTree as xml
+from pprint import PrettyPrinter
+import time
+import cv2
+from PIL import *
+import matplotlib.patches as patches
+from os import path
+import cv2
+from collections import defaultdict
+import imutils
+import glob 
+import random
